@@ -1,0 +1,82 @@
+name: final_application
+description: A new Flutter project.
+
+# Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+   
+  # icons 
+
+
+
+  cupertino_icons: ^1.0.2
+
+
+  easy_localization: ^3.0.1
+  flutter_otp_text_field: ^1.1.1
+  syncfusion_flutter_charts: ^20.3.50
+  syncfusion_flutter_calendar: ^20.3.50
+  google_fonts: ^3.0.1
+  dropdown_search: ^5.0.3
+  flutter_svg: ^1.1.6
+  awesome_dialog: ^3.0.2
+  realtime_client: ^1.0.0
+ 
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/lang/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico.ttf
+    
+
+    - family: steelfish
+      fonts:
+        - asset: assets/fonts/steelfish bd it.otf 
+
+
+    - family: arab
+      fonts:
+        - asset: assets/fonts/AAAGoldenLotus Stg1_Ver1 Regular.ttf
+
+      
